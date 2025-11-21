@@ -179,3 +179,24 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+
+
+
+# Ignore the entire data folder
+data/
+
+# Just in case: ignore all large raw image files
+*.jpg
+*.jpeg
+*.png
+
+# Ignore zips of datasets
+*.zip
+*.tar.gz
+*.tar
+
+# Ignore TensorFlow records
+*.tfrecord
+*.tfrec
